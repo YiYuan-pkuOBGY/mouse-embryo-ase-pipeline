@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mouse Embryo ASE Pipeline"
+  short_description: "Run CAST-BDF1 Smart-seq2 ASE on Slurm"
+  default_prompt: "Use $mouse-embryo-ase-pipeline to run my paired-end embryo Smart-seq2 FASTQs through STAR, SNPsplit, and allele-specific featureCounts on Slurm."
+policy:
+  allow_implicit_invocation: true

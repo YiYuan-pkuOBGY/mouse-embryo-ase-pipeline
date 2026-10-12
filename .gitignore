@@ -1,0 +1,17 @@
+config/pipeline.env
+.env
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sra
+*.vcf
+*.vcf.gz
+*.out
+*.err
+logs/
+align/
+allele_split/
+gene_counts/
